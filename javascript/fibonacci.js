@@ -10,7 +10,7 @@ function fibonacci(num) {
       array.push(newVar);
     }
   }
-  return array.slice(-1);
+  return parseInt(array.slice(-1));
 }
 
 if (require.main === module) {
